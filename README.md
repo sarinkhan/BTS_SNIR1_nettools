@@ -26,3 +26,8 @@ Modifier le programme précédent pour charger un fichier au format json plutôt
 #### Modification : test d'une liste d'hote depuis un fichier JSON et sauvegarde du résultat dans un fichier
 Modifier le programme précédent pour ajouter le fait que le programme sauvegarde également les résultats obtenus dans un fichier "output.txt"
 
+### Test d'une plage d'IP
+Réaliser un autre programme qui permet cette fois ci de tester une plage d'IP.
+Pour faire simple, on testera uniquement le dernier octet de l'adresse. 
+par exemple, il testera le réseau 192.168.0.0 avec le masque 255.255.255.0, donc les machines de 192.168.0.1 à 192.168.0.254.
+
