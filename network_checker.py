@@ -63,11 +63,11 @@ def main():
 
     """
 
-    # affiche le premier argument saisi
+    # affiche le premier argument saisi, s'il y en a un
     arg1 = None
-    if(len(sys.argv) > 0):
-        arg1 =str(sys.argv[1])
-    print(arg1)
+    if len(sys.argv) > 1:
+        arg1 = str(sys.argv[1])
+        print(arg1)
 
     return 0  # on indique que le programme s'est exécuté correctement
 
