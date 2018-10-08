@@ -17,6 +17,7 @@ de compte rendu devra être généré.
 
 import os
 import subprocess
+import sys
 
 # ce bloc sert à faire un code qui fonctionne même sous windows
 COUNT_TAG = "-n"
@@ -61,6 +62,12 @@ def main():
         toute autre valeur signifie un echec.
 
     """
+
+    # affiche le premier argument saisi
+    arg1 = None
+    if(len(sys.argv) > 0):
+        arg1 =str(sys.argv[1])
+    print(arg1)
 
     return 0  # on indique que le programme s'est exécuté correctement
 
