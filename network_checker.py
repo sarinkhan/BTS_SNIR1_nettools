@@ -65,7 +65,7 @@ def main():
 
     # affiche le premier argument saisi, s'il y en a un
     arg1 = None
-    if len(sys.argv) > 1:
+    if len(sys.argv) > 1: # Si il y a un argument ou plus
         arg1 = str(sys.argv[1])
         print(arg1)
 
